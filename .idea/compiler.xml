@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="SpringMVCDemo1" />
         <module name="SpringMVCDemo2" />
+        <module name="SpringJSON" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringJSON" target="1.7" />
       <module name="SpringMVCDemo1" target="1.5" />
       <module name="SpringMVCDemo2" target="1.7" />
     </bytecodeTargetLevel>
